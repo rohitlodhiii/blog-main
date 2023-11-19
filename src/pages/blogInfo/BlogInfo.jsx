@@ -104,7 +104,7 @@ function BlogInfo() {
   return (
     <Layout>
       <section className="rounded-lg h-full overflow-hidden max-w-4xl mx-auto px-4 ">
-        <div className=" py-4 lg:py-8 bg-gray-200">
+        <div className=" py-4 lg:py-8 ">
           {loading
             ?
             <Loader />

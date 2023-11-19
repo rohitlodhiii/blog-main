@@ -27,9 +27,11 @@ function HeroSection() {
         <h2 className="w-9/12 font-avi">
           Read various articles on coding,latest technology ,get free content and many more
         </h2>
-        <button onClick={()=> navigate('/allblogs')} className="flex border gap-2 border-black  px-4 py-2 rounded-full font-rohit active:scale-90  bg-red-600 text-white group transition-all duration-300 ease-in-out" >                         
+            <Link to={'/allblogs'}>
+        <button className="flex border gap-2 border-black  px-4 py-2 rounded-full font-rohit active:scale-90  bg-red-600 text-white group transition-all duration-300 ease-in-out" >                         
           <span>Explore </span><FaArrowRight className="my-auto hidden group-hover:block"/>
         </button>
+              </Link>
       </div>
       {/* Hero image */}
       <img

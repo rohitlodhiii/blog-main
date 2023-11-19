@@ -36,7 +36,7 @@ function HeroSection() {
       {/* Hero image */}
       <img
         className="hidden sm:inline-flex h-40 lg:h-80 xl:h-full"
-        src="https://imgur.com/BVDaRBZ"
+        src="https://i.postimg.cc/rsnf8S93/bgims.png"
         alt=""
       />
     </div>

@@ -28,7 +28,7 @@ export default function ShareDialogBox() {
                             <div className="flex gap-3">
                                 {/* Linkedin Icon  */}
                                 <div className="">
-                                    <a href="">
+                                    <a href="https://www.instagram.com/rohitlodhiii/">
                                         <AiFillLinkedin size={35} style={{
                                             color: mode === 'dark'
                                                 ? 'white'
@@ -39,7 +39,7 @@ export default function ShareDialogBox() {
 
                                 {/* Instagram Icon  */}
                                 <div className="">
-                                    <a href="">
+                                    <a href="https://www.instagram.com/rohitlodhiii/">
                                         <AiFillInstagram size={35} style={{
                                             color: mode === 'dark'
                                                 ? 'white'
@@ -50,7 +50,7 @@ export default function ShareDialogBox() {
 
                                 {/* Github Icon  */}
                                 <div className="">
-                                    <a href="">
+                                    <a href="https://www.instagram.com/rohitlodhiii/">
                                         <AiFillGithub size={35}
                                             style={{
                                                 color: mode === 'dark'
@@ -62,7 +62,7 @@ export default function ShareDialogBox() {
 
                                 {/* Facebook Icon  */}
                                 <div className="">
-                                    <a href="">
+                                    <a href="https://www.instagram.com/rohitlodhiii/">
                                         <AiFillFacebook size={35}
                                             style={{
                                                 color: mode === 'dark'
@@ -76,9 +76,7 @@ export default function ShareDialogBox() {
                         </div>
                     </div>
 
-                    <div className=" text-center">
-                        <h1 className=" text-gray-600">Powered By Devknus</h1>
-                    </div>
+                   
                 </DialogBody>
             </Dialog>
         </Fragment>
